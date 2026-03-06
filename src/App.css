@@ -1,0 +1,53 @@
+.library {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 3rem 0 2rem;
+  border-bottom: 1px solid #e0dcd6;
+  margin-bottom: 2.5rem;
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  margin-top: 0.5rem;
+  color: #8a8580;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.content {
+  flex: 1;
+}
+
+.section {
+  margin-bottom: 2.5rem;
+}
+
+.section h2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 0.75rem;
+  color: #4a4540;
+}
+
+.placeholder {
+  color: #a09890;
+  font-style: italic;
+  font-size: 0.95rem;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 2rem 0;
+  border-top: 1px solid #e0dcd6;
+  color: #a09890;
+  font-size: 0.85rem;
+}
