@@ -1,29 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700&display=swap');
+
 :root {
-  font-family: 'Georgia', 'Times New Roman', serif;
-  line-height: 1.6;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
   font-weight: 400;
-  color: #2c2c2c;
-  background-color: #faf8f5;
+  color: #0f172a;
+  background:
+    radial-gradient(circle, rgba(148, 163, 184, 0.22) 1px, transparent 1px),
+    linear-gradient(180deg, #f8fafc 0%, #f3f6f9 100%);
+  background-size: 24px 24px, 100% 100%;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-* {
-  margin: 0;
-  padding: 0;
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  min-width: 320px;
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
+  margin: 0;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  font-family: inherit;
+}
+
+img {
+  max-width: 100%;
 }
 
 #root {
-  max-width: 720px;
-  width: 100%;
-  padding: 2rem;
+  min-height: 100vh;
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 500,
+    'GRAD' 0,
+    'opsz' 24;
 }
