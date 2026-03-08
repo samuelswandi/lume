@@ -372,10 +372,6 @@
   padding: 1rem;
 }
 
-.detail-cover .book-cover {
-  min-height: 20rem;
-}
-
 .detail-copy {
   display: flex;
   flex-direction: column;
@@ -450,6 +446,14 @@
   color: #2f5b86;
   font-size: 0.78rem;
   font-weight: 600;
+}
+
+.detail-source-link {
+  align-self: flex-start;
+  color: #197fe6;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 .markdown-card {

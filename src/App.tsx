@@ -170,8 +170,6 @@ function SourcePage() {
 
         <article className="detail-page">
           <header className="detail-hero">
-            <div className="detail-cover">{renderShelfCover(item)}</div>
-
             <div className="detail-copy">
               <span className="detail-kicker">{item.description}</span>
               <h1>{item.title}</h1>
@@ -202,6 +200,15 @@ function SourcePage() {
                   <span key={note}>{note}</span>
                 ))}
               </div>
+
+              <a
+                className="detail-source-link"
+                href={item.sourceUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Visit source
+              </a>
             </div>
           </header>
 
