@@ -5,6 +5,7 @@ import './App.css'
 import { shelfItems, shelfItemsBySlug } from './library'
 
 const readingOrder = [
+  'the-making-of-a-manager',
   'private-equity', 'zero-to-one', 'sapiens', 'thinking-fast-and-slow',
   'poor-charlies-almanack', 'the-three-body-problem',
   'the-visual-mba', 'you-and-your-research', 'optimism-shapes-reality',

@@ -11,6 +11,7 @@ import theVisualMba from './content/the-visual-mba.md?raw'
 import thinkingFastAndSlow from './content/thinking-fast-and-slow.md?raw'
 import youAndYourResearch from './content/you-and-your-research.md?raw'
 import zeroToOne from './content/zero-to-one.md?raw'
+import theMakingOfAManager from './content/the-making-of-a-manager.md?raw'
 
 export type ShelfItem = {
   slug: string
@@ -34,6 +35,27 @@ export type ShelfItem = {
 }
 
 export const shelfItems: ShelfItem[] = [
+  {
+    slug: 'the-making-of-a-manager',
+    coverImage: `${import.meta.env.BASE_URL}covers/the-making-of-a-manager.jpg`,
+    title: 'The Making of a Manager',
+    subtitle: 'Julie Zhuo',
+    coverClass: 'cover-light',
+    meta: '2019',
+    description: 'Management',
+    summary:
+      'Practical notes on whether management suits you, how to recognize good management, and why team outcomes matter.',
+    published: 'March 2019',
+    format: 'Business',
+    pages: '288 pages (ebook)',
+    status: 'On shelf',
+    abstract:
+      'My takeaways on the daily work of a manager, trust and feedback with reports, and helping a team deliver meaningful impact.',
+    notes: ['Management fit', 'Trust and feedback', 'Team outcomes'],
+    markdown: theMakingOfAManager,
+    sourceUrl:
+      'https://www.penguinrandomhouse.com/books/558155/the-making-of-a-manager-by-julie-zhuo/9780735219571/',
+  },
   {
     slug: 'private-equity',
     coverImage: `${import.meta.env.BASE_URL}covers/private-equity.jpg`,
