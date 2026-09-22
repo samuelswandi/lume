@@ -1,23 +1,11 @@
-## Why It Stayed With Me
+## Comfort and conscious choices
 
-This book is useful because it keeps zooming out. It makes human history feel less inevitable and more contingent, improvised, and shaped by stories we chose to believe together.
+*Sapiens* made me more suspicious of my own desire for comfort. Harari’s account of the shift from foraging to farming stayed with me: a change that looks like progress can also create new burdens and dependencies.
 
-## Notes I Kept Returning To
+I see a similar pattern when people attach themselves to someone powerful, hoping to receive a small share of the benefits. It made me think about my own choices. I deliberately choose things I’m uncomfortable with as a way of staying conscious of how I’m living.
 
-### Shared fictions scale civilizations
+## Having something to believe in
 
-Harari is especially good at showing how money, states, religions, and institutions become powerful because many people agree to act as if they are real in the same way.
+The example of Peugeot stayed with me. Its founder could die, but the company could continue because people collectively recognized something beyond the individual.
 
-### Humans are built for failure
-
-That remembered line stayed with me because the book treats error, fragility, and adaptation as part of the species story rather than an exception to it.
-
-### Progress is morally uneven
-
-The widening arc of capability does not automatically mean a widening arc of well-being.
-
-## What I Took From It
-
-- Human systems are often story-shaped.
-- Failure is part of adaptation, not just evidence against it.
-- Historical scale can make present-day assumptions feel less fixed.
+That made me think about the personal stories we live by: our hopes, beliefs, and sense of purpose. I think having something to believe in helps us find direction and feel more at peace with what we’re working toward. By faith, I mean that broader sense of belief, not only religion.

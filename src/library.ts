@@ -4,7 +4,6 @@ import the48LawsOfPower from './content/the-48-laws-of-power.md?raw'
 import noise from './content/noise.md?raw'
 import poorCharliesAlmanack from './content/poor-charlies-almanack.md?raw'
 import privateEquity from './content/private-equity.md?raw'
-import samAltmanBlog from './content/sam-altman-blog.md?raw'
 import theArtOfShowingUp from './content/the-art-of-showing-up.md?raw'
 import theRichestManInBabylon from './content/the-richest-man-in-babylon.md?raw'
 import theThreeBodyProblem from './content/the-three-body-problem.md?raw'
@@ -37,6 +36,7 @@ export type ShelfItem = {
 export const shelfItems: ShelfItem[] = [
   {
     slug: 'private-equity',
+    coverImage: `${import.meta.env.BASE_URL}covers/private-equity.jpg`,
     title: 'Private Equity',
     subtitle: 'Carrie Sun',
     coverClass: 'cover-light',
@@ -56,6 +56,7 @@ export const shelfItems: ShelfItem[] = [
   },
   {
     slug: 'zero-to-one',
+    coverImage: `${import.meta.env.BASE_URL}covers/zero-to-one.jpg`,
     title: 'Zero to One',
     subtitle: 'Peter Thiel and Blake Masters',
     coverClass: 'cover-dark',
@@ -75,28 +76,10 @@ export const shelfItems: ShelfItem[] = [
     sourceUrl:
       'https://www.penguinrandomhouse.com/books/215400/zero-to-one-by-peter-thiel-with-blake-masters/',
   },
-  {
-    slug: 'sam-altman-blog',
-    title: 'Sam Altman Blog',
-    subtitle: 'Sam Altman',
-    coverClass: 'cover-minimal',
-    meta: 'ONGOING',
-    description: 'Essays',
-    tag: 'Startups, agency, AI.',
-    summary:
-      'A living archive of essays on startups, leverage, execution, personal growth, and long-term technological change.',
-    published: 'Ongoing',
-    format: 'Blog',
-    pages: 'Living archive',
-    status: 'Live',
-    abstract:
-      'The blog is less one thesis than a recurring operating system: compound effort, learn fast, maintain high agency, and position yourself close to important waves.',
-    notes: ['Agency', 'Compounding', 'Technology waves'],
-    markdown: samAltmanBlog,
-    sourceUrl: 'https://blog.samaltman.com/',
-  },
+
   {
     slug: 'poor-charlies-almanack',
+    coverImage: `${import.meta.env.BASE_URL}covers/poor-charlies-almanack.jpg`,
     title: "Poor Charlie's Almanack",
     subtitle: 'Charles T. Munger',
     coverClass: 'cover-accent',
@@ -136,6 +119,7 @@ export const shelfItems: ShelfItem[] = [
   },
   {
     slug: 'the-visual-mba',
+    coverImage: `${import.meta.env.BASE_URL}covers/the-visual-mba.jpg`,
     title: 'The Visual MBA',
     subtitle: 'Jason Barron',
     coverClass: 'cover-quote',
@@ -195,6 +179,7 @@ export const shelfItems: ShelfItem[] = [
   },
   {
     slug: 'the-three-body-problem',
+    coverImage: `${import.meta.env.BASE_URL}covers/the-three-body-problem.jpg`,
     title: 'The Three-Body Problem',
     subtitle: 'Cixin Liu',
     coverClass: 'cover-light',
@@ -215,6 +200,7 @@ export const shelfItems: ShelfItem[] = [
   },
   {
     slug: 'sapiens',
+    coverImage: `${import.meta.env.BASE_URL}covers/sapiens.jpg`,
     title: 'Sapiens',
     subtitle: 'Yuval Noah Harari',
     coverClass: 'cover-light',
@@ -234,6 +220,7 @@ export const shelfItems: ShelfItem[] = [
   },
   {
     slug: 'thinking-fast-and-slow',
+    coverImage: `${import.meta.env.BASE_URL}covers/thinking-fast-and-slow.jpg`,
     title: 'Thinking, Fast and Slow',
     subtitle: 'Daniel Kahneman',
     coverClass: 'cover-dark',
@@ -255,6 +242,7 @@ export const shelfItems: ShelfItem[] = [
   },
   {
     slug: 'noise',
+    coverImage: `${import.meta.env.BASE_URL}covers/noise.jpg`,
     title: 'Noise',
     subtitle: 'Daniel Kahneman, Olivier Sibony, and Cass R. Sunstein',
     coverClass: 'cover-minimal',
@@ -276,6 +264,7 @@ export const shelfItems: ShelfItem[] = [
   },
   {
     slug: 'the-richest-man-in-babylon',
+    coverImage: `${import.meta.env.BASE_URL}covers/the-richest-man-in-babylon.jpg`,
     title: 'The Richest Man in Babylon',
     subtitle: 'George S. Clason',
     coverClass: 'cover-accent',
@@ -296,6 +285,7 @@ export const shelfItems: ShelfItem[] = [
   },
   {
     slug: 'the-48-laws-of-power',
+    coverImage: `${import.meta.env.BASE_URL}covers/the-48-laws-of-power.jpg`,
     title: 'The 48 Laws of Power',
     subtitle: 'Robert Greene',
     coverClass: 'cover-quote',

@@ -5,11 +5,8 @@
   font-family: 'Inter', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color: #0f172a;
-  background:
-    radial-gradient(circle, rgba(148, 163, 184, 0.22) 1px, transparent 1px),
-    linear-gradient(180deg, #f8fafc 0%, #f3f6f9 100%);
-  background-size: 24px 24px, 100% 100%;
+  color: #292823;
+  background: #faf9f6;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -27,7 +24,7 @@ html {
 }
 
 body {
-  min-width: 320px;
+  min-width: 0;
   min-height: 100vh;
   margin: 0;
 }

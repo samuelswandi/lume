@@ -1,23 +1,5 @@
-## Why It Stayed With Me
+I read *Private Equity* mostly for Boone. It follows Carrie Sun’s experience as an assistant, but I kept paying attention to how he worked.
 
-This is one of the clearest books I have read about prestige from the inside. It is not written like a business manual, which is exactly why it works. You get the machinery of elite finance, but you also get the emotional texture around ambition, class, exhaustion, and proximity to power.
+One moment that stayed with me was when Carbon made an error. He faced it directly, immediately emailed investors, and took responsibility for fixing it. I admired how he carried himself when something went wrong.
 
-## Notes I Kept Returning To
-
-### Ambition can become a borrowed identity
-
-The book keeps asking whether success still feels meaningful when the metrics were inherited from the room around you.
-
-### Prestige changes how labor is explained
-
-Hard work inside elite systems is often narrated as privilege, opportunity, and access, which can make overwork feel morally flattering.
-
-### Observation is a form of power
-
-Because Carrie Sun writes from the assistant seat, she notices the hierarchy with unusual precision. The peripheral view becomes the revealing one.
-
-## What I Took From It
-
-- Ambition without self-authorship gets expensive.
-- Elite environments can distort what counts as enough.
-- A close view of institutions is often more clarifying than their mythology.
+His conviction, hard work, and competence inspired me. I also admired his honesty and how much he cared about his family. Watching him made me think about what it takes to be great in a firm like that.

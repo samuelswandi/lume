@@ -1,23 +1,7 @@
-## Why It Stayed With Me
+## Fast and slow thinking
 
-This is still the cleanest book I know for understanding why smart people can be predictably wrong. It gives a vocabulary for patterns that feel obvious only after they have been named.
+The distinction between System 1 and System 2 stayed with me. Some thinking happens almost automatically, like knowing that 1 + 1 equals 2. Other thinking takes deliberate effort, like working out 1,234 × 12.
 
-## Notes I Kept Returning To
+It made me notice how much of my daily life happens without stopping to think through every choice. That’s why conviction matters to me. I want what I believe consciously to carry through into the choices I make automatically.
 
-### Fast thinking is necessary and flawed
-
-System 1 is efficient, intuitive, and indispensable, but it is also overconfident and prone to substitution.
-
-### Slow thinking is expensive
-
-System 2 can correct mistakes, but it is effortful, limited, and not nearly as available as we imagine.
-
-### Confidence and correctness drift apart
-
-The book is especially useful whenever certainty rises faster than the quality of evidence.
-
-## What I Took From It
-
-- Check confidence separately from accuracy.
-- Expect intuition to be useful but incomplete.
-- Build small pauses into important decisions.
+For me, the question became: how do I make my conviction part of the way I live every day? I want to believe in my direction deeply enough that it shows up in my everyday actions.

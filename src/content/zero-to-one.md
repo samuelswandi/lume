@@ -1,27 +1,13 @@
-## Why It Stayed With Me
+## Escape velocity
 
-This book is still one of the sharpest prompts to think independently about products and markets. Even when I disagree with parts of it, it keeps pushing me toward better questions.
+*Zero to One* made me think about how a company escapes competition by building something meaningfully different. My friend and I started thinking about what the founder needs to make that possible. We came back to three things: privilege, conviction, and grit.
 
-## Notes I Kept Returning To
+Privilege is the starting point we don't get to choose. Some of our abilities and circumstances are given to us. A friend once made me think about restarting life as someone else, without knowing who I would become. I would choose the life I already have. It made me realize how privileged I am and how much I have to be grateful for.
 
-### Competition can be a trap
+Conviction is the foundation. Without it, I don't know where I want to go or how to move forward. Grit is following through: putting in the work and being consistent. Having conviction won't amount to much if I don't act on it.
 
-The core argument is that copying what already works usually pushes you into crowded ground with weaker economics.
+That's how I think about escape velocity at the founder level. It's a theory my friend and I developed while thinking about the book.
 
-### Valuable ideas often sound strange at first
+## Competition is for losers
 
-The contrarian framing matters because genuinely new opportunities rarely begin as consensus.
-
-### Distribution is part of the product
-
-The book treats sales, channel design, and go-to-market as first-order decisions instead of afterthoughts.
-
-### Escape velocity matters
-
-One sticky phrase from the book is escape velocity: a company needs enough momentum and differentiation to stop being trapped by ordinary competitive gravity.
-
-## What I Took From It
-
-- Look for insight before tactics.
-- Build toward defensibility, not just launch.
-- Treat distribution as part of the original design.
+“Competition is for losers” helped me understand the difference between a monopoly and a business competing with many others. That's the main thing I took from this idea.
