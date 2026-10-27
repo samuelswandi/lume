@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import { Link, Navigate, Route, Routes, useParams } from 'react-router-dom'
 import './App.css'
+import KoiPond from './KoiPond'
 import { shelfItems, shelfItemsBySlug } from './library'
 
 const readingOrder = [
@@ -37,7 +38,7 @@ function HomePage() {
   return (
     <main className="home-layout">
       <header className="profile">
-        <div className="profile-main">
+        <div className="profile-main" data-pond-dim>
         <h1>samuel swandi</h1>
         <p>product engineer</p>
         <nav className="profile-links" aria-label="Social links">
@@ -46,19 +47,19 @@ function HomePage() {
           <a href="https://instagram.com/samuelswandi" target="_blank" rel="noreferrer">instagram <span aria-hidden="true">↗</span></a>
         </nav>
         </div>
-        <p className="profile-note">A calmer internet<br />for a more curious you.</p>
+        <p className="profile-note" data-pond-dim>A calmer internet<br />for a more curious you.</p>
       </header>
 
       <section className="library" aria-labelledby="library-heading">
-        <div className="library-topline">
+        <div className="library-topline" data-pond-dim>
           <span>the reading index</span>
           <span>books build a quieter mind.</span>
         </div>
-        <header className="library-heading">
+        <header className="library-heading" data-pond-dim>
           <h2 id="library-heading">library</h2>
           <p>same books<br />a brighter you</p>
         </header>
-        <div className="reading-index">
+        <div className="reading-index" data-pond-dim>
           {readingOrder.map((slug, index) => {
             const item = shelfItemsBySlug.get(slug)!
             return (
@@ -72,7 +73,7 @@ function HomePage() {
             )
           })}
         </div>
-        <p className="library-endnote">read more. think deeper.</p>
+        <p className="library-endnote" data-pond-dim>read more. think deeper.</p>
       </section>
     </main>
   )
@@ -92,8 +93,8 @@ function SourcePage() {
 
   return (
     <main className="reading-page">
-      <Link className="back-link" to="/">← Back to library</Link>
-      <article className="markdown-body">
+      <Link className="back-link" to="/" data-pond-dim>← Back to library</Link>
+      <article className="markdown-body" data-pond-dim>
         <h1>{item.title}</h1>
         <ReactMarkdown
           components={{
@@ -109,11 +110,14 @@ function SourcePage() {
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/sources/:slug" element={<SourcePage />} />
-      <Route path="*" element={<Navigate to="/" replace />} />
-    </Routes>
+    <>
+      <KoiPond />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/sources/:slug" element={<SourcePage />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+    </>
   )
 }
 

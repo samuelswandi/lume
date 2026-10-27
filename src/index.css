@@ -6,7 +6,7 @@
   line-height: 1.5;
   font-weight: 400;
   color: #292823;
-  background: #faf9f6;
+  background: #f5f4f1;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -43,7 +43,18 @@ img {
 }
 
 #root {
+  position: relative;
+  z-index: 1;
   min-height: 100vh;
+}
+
+.koi-pond {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
 }
 
 .material-symbols-outlined {
